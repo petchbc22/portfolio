@@ -1,0 +1,235 @@
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.Toastify__toast {
+  box-shadow: 0 0 13px 14px rgb(0 0 0 / 10%), 0 2px 15px 0 rgb(0 0 0 / 20%) !important;
+}
+.select-err {
+  border: 1px solid #dc3545 !important;
+  border-radius: 0.25rem !important;
+}
+.image-fit {
+  max-height: 300px;
+  width: auto;
+}
+.font-monospace {
+  font-family: monospace;
+}
+.font-1_375em {
+  font-size: 1.375em !important;
+}
+.centerOfScreen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  z-index: 1;
+}
+.containerLoading {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 99;
+  opacity: 0.7;
+}
+/* body {
+  background-color: #000;
+} */
+.img-logo-main-w{
+  width: 95px;
+  transition: 0.2s;
+}
+.img-logo-main-w-resize{
+  width: 48px;
+  transition: 0.2s;
+}
+.img-banner {
+  text-align: center;
+  position: absolute;
+  /* bottom: -10px; */
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: auto;
+  max-width: 190px;
+}
+.img-banner-resize {
+  text-align: center;
+  position: absolute;
+  /* bottom: 0; */
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: auto;
+  max-width: 190px;
+}
+.navbar-nav {
+  flex-direction: row;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+.nav-box-left {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.nav-box-right {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.nav-item {
+  margin: 12px 20px 12px 0;
+}
+.header-section1 {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.header-section2 {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #202020; 
+  height: 60px;
+
+}
+.remove-top{
+  height: auto;
+  transition: 0.3s;
+}
+.remove-pd-top{
+  padding-top: 0;
+  transition: 0.3s;
+}
+
+.header-section1 .nav-item {
+  color:#202020;
+  font-weight: 900;
+  font-size: 14px;
+ }
+.header-section2 .nav-item {
+ color:#fff;
+ font-weight: 900;
+}
+.fullheight-bn{
+  height: 100vh;
+  padding-top: 48px;
+  background: url("./assets/wallpaperflare.com_wallpaper.jpg") rgba(34 30 32 / 73%);
+  background-size: contain;
+  background-blend-mode: multiply;
+}
+
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.10em;
+  display: inline-block;
+  /* padding: 15px 20px; */
+  position: relative;
+  font-size:14px;
+}
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after {
+  width: 100%;
+  left: 0;
+
+}
+a:hover{
+  text-decoration: none !important;
+  color:antiquewhite;
+}
+
+
+h1 {
+  overflow: hidden;
+  text-align: center;
+ }
+ h1:before,
+ h1:after {
+  background-color: #333;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+ }
+ h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+ }
+ h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+ }
+ .text-scroll{
+   letter-spacing: 0;
+   font-size: 12px;
+   transition: 0.3s;
+ }
